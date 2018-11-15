@@ -14,7 +14,33 @@ Time spent: **6** hours spent in total
   - Installation script had a missing package and would corrupt the installation if halted midway (required clean VM)
   - Figuring out how to analyze the malware sample
 * A summary of the data collected: number of attacks, number of malware samples, etc.
-  - 
+  - There were a total of 3448 attacks recorded.
+  - Two malware samples were captured by Dionaea on port 445 through the Server Message Block (smb) protocol which provides shared access to files.
+  - Protocols used: 
+    - "pcap": 2980
+    - "smbd": 173
+    - "mysqld": 50
+    - "SipSession": 176
+    - "SipCall": 67
+    - "epmapper": 2
+    - "mssqld": 2
+    - "ftpd": 2
+    - "microsoft-ds": 3
+    - "RtpUdpStream": 2
+    - "TftpServerHandler": 2
+  - Ports used:
+    - 8088 (908 times)
+    - 5060 (228 times)
+    - 23 (124 times)
+    - 445 (97 times)
+    - 80 (52 times)
+  - Countries 
+    - ![United States](US.png "United States") 1724
+    - ![Great Britain](GB.png "Great Britain") 718
+    - ![Vietnam](VN.png "Vietnam") 718
+    - ![Ukraine](UA.png "Ukraine") 359
+    - ![India](IN.png "India") 71
+  
 * Any unresolved questions raised by the data collected
     
 ## Assets
