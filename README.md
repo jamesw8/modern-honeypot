@@ -42,7 +42,8 @@ Time spent: **6** hours spent in total
     - ![India](IN.png "India") 71
   
 * Any unresolved questions raised by the data collected
-    
+  - How do we safely analyze what the malware sample is supposed to do?
+  
 ## Assets
 
 List any additional assets, such as scripts or files
